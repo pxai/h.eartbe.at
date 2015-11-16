@@ -1,0 +1,12 @@
+        <div class="row">
+                <p><a href="#/send">Send heartbeat</a></p>          
+          <h3>Last beats received</h3>
+            {{message}}
+            <div ng-repeat="beat in lastBeats.data">
+                <h4>{{beat.user}}</h4>
+                <p>{{beat.text}}</p>
+                <p><a href="#/beat/{{beat._id}}">See detail</a></p>
+                </div>
+                <hr />
+          </div>
+      </div>

@@ -1,0 +1,13 @@
+ <div class="row">
+     <form name="formSend" ng-submit="submit()" ng-controller="heartbeatSendBeatCtrl"> 
+              <div class="input-group" >
+                        <input type="text" name="to" id="to" ng-model="to" class="form-control" placeholder="@somebody">
+              </div>
+              <div class="input-group" >
+                        <textarea  name="text" id="text"  ng-model="text" class="form-control" placeholder=""></textarea>
+              </div>
+              <div class="input-group">
+                    <button class="btn btn-default" type="submit" ng-click="search()"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+              </div>
+          </form>
+ </div>

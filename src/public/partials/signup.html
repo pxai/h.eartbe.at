@@ -1,0 +1,14 @@
+      <h4><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign up</h4>
+     <form name="formSend" method="post" action="/api/beats/send"> 
+              <div class="input-group" >
+                        <input type="text" name="to" id="to" ng-model="query" class="form-control" placeholder="@somebody">
+              </div>
+              <div class="input-group" >
+                        <textarea  name="text" id="text"  ng-model="query" class="form-control" placeholder=""></textarea>
+              </div>
+              <div class="input-group">
+                    <button class="btn btn-default" type="submit" ng-click="search()"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+              </div>
+          </form>
+          
+

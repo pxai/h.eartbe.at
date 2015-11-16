@@ -1,0 +1,5 @@
+{
+	"appName" : "h.eartbe.at",
+	"port" : "3000",
+	"mongoUrl" : "mongodb://localhost/heartbeat"
+}
